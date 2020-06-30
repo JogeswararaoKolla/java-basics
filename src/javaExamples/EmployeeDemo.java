@@ -1,4 +1,4 @@
-package com.training.java;
+package javaExamples;
 
 public class EmployeeDemo {
     public static void main(String[] args){

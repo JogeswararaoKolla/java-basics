@@ -1,4 +1,4 @@
-package com.training.java;
+package javaExamples;
 
 public class Employee {
     String employeeName;
