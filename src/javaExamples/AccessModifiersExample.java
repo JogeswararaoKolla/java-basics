@@ -1,6 +1,8 @@
+package javaExamples;
+
 import java.util.Scanner;
 
-public class Datatypes {
+public class AccessModifiersExample {
 
     public static int add(int firstNumber,int SecondNumber){
         return firstNumber + SecondNumber;

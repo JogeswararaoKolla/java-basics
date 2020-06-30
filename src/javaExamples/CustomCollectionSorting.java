@@ -1,3 +1,5 @@
+package javaExamples;
+
 import java.util.*;
 
 public class CustomCollectionSorting {
@@ -30,7 +32,7 @@ class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "java.Student{" +
                 "rollno=" + rollno +
                 ", marks=" + marks +
                 '}';

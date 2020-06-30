@@ -1,3 +1,5 @@
+package javaExamples;
+
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -29,11 +31,11 @@ import java.util.List;
 public class DemoCollection {
 
     public static void main(String[] args) {
-//        Container<Integer> obj1=new Container<>();
+//        java.Container<Integer> obj1=new java.Container<>();
 //        obj1.value=10;
 //         obj1.show();
 //
-//         Container<Number> obj2=new Container<>();
+//         java.Container<Number> obj2=new java.Container<>();
 //         obj2.value=30.0;
 //         obj2.show();
 //

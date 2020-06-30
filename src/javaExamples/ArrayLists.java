@@ -1,3 +1,4 @@
+package javaExamples;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,18 +9,18 @@ public class ArrayLists {
 
     public static void main(String[] args) {
         /*
-         * In addition to arrays, Java provides ArrayLists. This is a data type that
+         * In addition to arrays, Java provides javaExamples.ArrayLists. This is a data type that
          * automatically grows and shrinks an underlying array, so you're not locked
          * into using an array of predetermined size--which is impractical in most
          * settings.
          *
-         * In most real projects, you'll probably want to use ArrayLists. Arrays are
+         * In most real projects, you'll probably want to use javaExamples.ArrayLists. Arrays are
          * perfectly valid, though, and for today's assignments, use whichever is more
          * comfortable for you.
          */
 
         /*
-         * ArrayLists are objects, so you instantiate them using constructors. You
+         * javaExamples.ArrayLists are objects, so you instantiate them using constructors. You
          * specify the type of the variable you're storing kinside the brackets. The
          * syntax is a bit funky, but it's nothing magic.
          */
@@ -53,7 +54,7 @@ public class ArrayLists {
         System.out.println(triumvirs);
         System.out.println(String.format("The first triumvir is now %s.", triumvirs.get(0)));
 
-        // Finally, you iterate over ArrayLists using the same shorthand you use
+        // Finally, you iterate over javaExamples.ArrayLists using the same shorthand you use
         // with arrays.
         for (String triumvir : triumvirs) {
             System.out.println(String.format("This ruler's name is %s.", triumvir));
