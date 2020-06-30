@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.function.Consumer;
 
-public class Java8Demo {
+public class LambdaExpressionDemo {
     public static void main(String[] args) {
         List<Integer> values= Arrays.asList(1,3,4,5,6);
 
