@@ -7,6 +7,9 @@ boolean contains(Object o);
 Iterator<E> iterator();
 boolean add(E e);
 boolean remove(Object o);
+void add(int index, E element);
+E get(int index);
+E set(int index, E element);
 */
 public class ArrayList<E> extends AbstractList<E>
         implements List<E>, RandomAccess, Cloneable, java.io.Serializable
@@ -46,6 +49,7 @@ interface Entry<K, V> {
 }
 public class HashMap<K,V> extends AbstractMap<K,V>
     implements Map<K,V>, Cloneable, Serializable {}
+
 public interface Function<T, R> {
 R apply(T t);
 /* @param <T> the type of the input to the function
